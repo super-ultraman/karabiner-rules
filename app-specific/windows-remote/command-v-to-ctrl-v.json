@@ -6,8 +6,7 @@
                 {
                     "bundle_identifiers": [
                         "^org\\.virtualbox\\.app\\.VirtualBoxVM$",
-                        "^com\\.microsoft\\.rdc\\.macos$",
-                        "com\\.microsoft\\.rdc\\.macos"
+                        "^com\\.microsoft\\.rdc\\.macos$"
                     ],
                     "type": "frontmost_application_if"
                 }
