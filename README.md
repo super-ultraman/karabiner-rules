@@ -8,18 +8,22 @@ This repository provides custom rules for [Karabiner-Elements](https://karabiner
 
 ## Using Rules from This Repository
 
-Copy and paste any of the following URLs into your browser's address bar, and Karabiner-Elements will prompt you to install the corresponding rule:
+1. **Download the Desired Rule Files**:
+   - Download the JSON files for the rules you want to use from the following links:
+     - [Command+C to Control+C](https://raw.githubusercontent.com/super-ultraman/karabiner-rules/refs/heads/main/app-specific/windows-remote/command-c-to-ctrl-c.json)
+     - [Command+V to Control+V](https://raw.githubusercontent.com/super-ultraman/karabiner-rules/refs/heads/main/app-specific/windows-remote/command-v-to-ctrl-v.json)
+     - [Command+W to Control+W](https://raw.githubusercontent.com/super-ultraman/karabiner-rules/refs/heads/main/app-specific/windows-remote/command-w-to-ctrl-w.json)
+     - [Command+S to Control+S](https://raw.githubusercontent.com/super-ultraman/karabiner-rules/refs/heads/main/app-specific/windows-remote/command-s-to-ctrl-s.json)
 
-- Command+C to Control+C:  
-  `karabiner://karabiner/assets/complex_modifications/import?url=https://raw.githubusercontent.com/super-ultraman/karabiner-rules/refs/heads/main/app-specific/windows-remote/command-c-to-ctrl-c.json`
+2. **Copy Files to Karabiner-Elements Configuration Folder**:
+   - Move the downloaded JSON files to Karabiner’s `complex_modifications` folder:
+     ```plaintext
+     ~/.config/karabiner/assets/complex_modifications/
+     ```
 
-- Command+V to Control+V:  
-  `karabiner://karabiner/assets/complex_modifications/import?url=https://raw.githubusercontent.com/super-ultraman/karabiner-rules/refs/heads/main/app-specific/windows-remote/command-v-to-ctrl-v.json`
+3. **Load the Rules in Karabiner-Elements**:
+   - Open **Karabiner-Elements**.
+   - Go to `Preferences > Complex Modifications > Add rule`.
+   - Find and enable the rules you copied to the configuration folder.
 
-- Command+W to Control+W:  
-  `karabiner://karabiner/assets/complex_modifications/import?url=https://raw.githubusercontent.com/super-ultraman/karabiner-rules/refs/heads/main/app-specific/windows-remote/command-w-to-ctrl-w.json`
-
-- Command+S to Control+S:  
-  `karabiner://karabiner/assets/complex_modifications/import?url=https://raw.githubusercontent.com/super-ultraman/karabiner-rules/refs/heads/main/app-specific/windows-remote/command-s-to-ctrl-s.json`
-
-After pasting the URL in your browser, press Enter, and Karabiner-Elements should prompt you to install the rule.
+After completing these steps, the rules will be active in Karabiner-Elements.
