@@ -21,7 +21,7 @@
             "to": [
                 {
                     "key_code": "f4",
-                    "modifiers": ["fn", "left_option"]
+                    "modifiers": ["fn", "option"]
                 }
             ],
             "type": "basic"
